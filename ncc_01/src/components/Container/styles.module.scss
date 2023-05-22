@@ -1,0 +1,13 @@
+@import '../../styles/variable';
+@import '../../styles/adaptive';
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding-left: var(--container-pd);
+  padding-right: var(--container-pd);
+  @include large-tablet() {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

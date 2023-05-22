@@ -1,0 +1,13 @@
+.container {
+  padding: 14px 16px 11px 16px;
+  transition: all .15s ease-in-out;
+  cursor: pointer;
+  color: var(--gray_01);
+  &:hover {
+    background: var(--gray_02);
+    color: var(--white);
+  }
+}
+.active {
+  color: var(--white);
+}

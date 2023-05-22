@@ -1,0 +1,10 @@
+.container {
+  width: var(--sidebar-width);
+  background: var(--background);
+  position: fixed;
+  left: 0;
+  height: 100%;
+}
+.element {
+  border-bottom: 1px solid var(--gray_01);
+}
